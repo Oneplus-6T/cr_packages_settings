@@ -25,7 +25,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:src="@drawable/crdroid"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside" />
+        android:adjustViewBounds="true" />
 
 </LinearLayout>
