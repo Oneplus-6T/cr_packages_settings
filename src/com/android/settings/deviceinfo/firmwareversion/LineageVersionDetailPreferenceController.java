@@ -28,7 +28,7 @@ public class LineageVersionDetailPreferenceController extends BasePreferenceCont
 
     private static final String TAG = "lineageVersionDialogCtrl";
 
-    private static final String KEY_LINEAGE_VERSION_PROP = "ro.rising.version";
+    private static final String KEY_LINEAGE_VERSION_PROP = "ro.modversion";
 
     public LineageVersionDetailPreferenceController(Context context, String key) {
         super(context, key);

@@ -31,30 +31,23 @@
             settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController"
             settings:enableCopying="true"/>
 
-        <com.android.settings.preferences.ui.AdaptivePreference
-            android:key="rom_build_status"
-            android:order="-997"
-            settings:enableCopying="true"
-            settings:position="bottom"
-            android:selectable="true"/>
-
         <com.android.settingslib.widget.LayoutPreference
             android:key="my_device_sw_header"
-            android:order="-996"
+            android:order="-997"
             android:layout="@layout/about_device_info_sw"
             android:selectable="false"
             settings:isPreferenceVisible="true"/>
 
         <com.android.settingslib.widget.LayoutPreference
             android:key="my_device_hw_header"
-            android:order="-995"
+            android:order="-996"
             android:layout="@layout/about_device_info_hw"
             android:selectable="false"
             settings:isPreferenceVisible="true"/>
 
         <com.android.settingslib.widget.LayoutPreference
             android:key="my_device_info_header"
-            android:order="-994"
+            android:order="-995"
             android:layout="@layout/about_device_info"
             android:selectable="false"
             settings:isPreferenceVisible="false"/>

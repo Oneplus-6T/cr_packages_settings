@@ -78,7 +78,7 @@ public class DeviceNamePreferenceController extends BasePreferenceController
         mPreference.setSummary(deviceName);
         mPreference.setText(deviceName.toString());
         mPreference.setValidator(this);
-        mPreference.setLayoutResource(AdaptivePreferenceUtils.getLayoutResourceId(mContext, "top", false));
+        mPreference.setLayoutResource(AdaptivePreferenceUtils.getLayoutResourceId(mContext, "solo", false));
     }
 
     private void initializeDeviceName() {

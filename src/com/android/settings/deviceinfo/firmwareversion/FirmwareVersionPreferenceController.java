@@ -20,7 +20,6 @@ import android.content.Context;
 import android.os.Build;
 
 import com.android.settings.core.BasePreferenceController;
-import com.android.settings.R;
 
 public class FirmwareVersionPreferenceController extends BasePreferenceController {
 
@@ -35,6 +34,6 @@ public class FirmwareVersionPreferenceController extends BasePreferenceControlle
 
     @Override
     public CharSequence getSummary() {
-        return mContext.getString(R.string.device_info_platform_version);
+        return Build.VERSION.RELEASE_OR_PREVIEW_DISPLAY;
     }
 }

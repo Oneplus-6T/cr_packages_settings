@@ -152,7 +152,7 @@ android_library {
     ],
     
     additional_manifests: [
-        "RisingManifest.xml"
+        "crDroidManifest.xml"
     ],
 }
 
