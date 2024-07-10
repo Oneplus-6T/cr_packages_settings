@@ -149,20 +149,11 @@
             android:order="42"
             android:title="@string/firmware_version"
             android:summary="@string/summary_placeholder"
-            android:icon="@drawable/ic_webhook"
+            android:icon="@drawable/ic_smartphone"
             settings:position="bottom"
             android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
     </PreferenceCategory>
-
-        <!-- Lineage version -->
-        <Preference
-            android:key="lineage_os_version"
-            android:order="43"
-            android:title="@*lineageos.platform:string/lineage_version"
-            android:summary="@string/summary_placeholder"
-            settings:enableCopying="true"
-            settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
 
     <PreferenceCategory
         android:title="@string/my_device_info_device_identifiers_category_title">
