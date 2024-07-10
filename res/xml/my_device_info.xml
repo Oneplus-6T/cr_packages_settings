@@ -31,27 +31,6 @@
             settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController"
             settings:enableCopying="true"/>
 
-        <com.android.settingslib.widget.LayoutPreference
-            android:key="my_device_sw_header"
-            android:order="-997"
-            android:layout="@layout/about_device_info_sw"
-            android:selectable="false"
-            settings:isPreferenceVisible="true"/>
-
-        <com.android.settingslib.widget.LayoutPreference
-            android:key="my_device_hw_header"
-            android:order="-996"
-            android:layout="@layout/about_device_info_hw"
-            android:selectable="false"
-            settings:isPreferenceVisible="true"/>
-
-        <com.android.settingslib.widget.LayoutPreference
-            android:key="my_device_info_header"
-            android:order="-995"
-            android:layout="@layout/about_device_info"
-            android:selectable="false"
-            settings:isPreferenceVisible="false"/>
-
     <PreferenceCategory
         android:key="basic_info_category"
         android:selectable="false"
